@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-ENV SRC_DIR /usr/local/src/intensecoin
+ENV SRC_DIR /app
 
 RUN set -x \
   && buildDeps=' \
